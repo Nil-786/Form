@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFIT Form</title>
+    <style>
+        fieldset{
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color:rgb(26, 135, 166) ; width: 940px; margin:0 auto;">
+        <center>
+            <img style="width: 100px; height: 100px ;  " src="sfitlogo.png" ; alt="" align="center"><br>
+            <b>St.Francis Institute of Technology</b><br>
+            Mount Poinsur,Borivali(W),Mumbai-400 101 <br>
+            <b>Phone No.</b>022-289088585. 022-28908787 <b>Email:</b>sfedu@sfit.ac.in <b>website:</b>www.sfit.ac.in
+        </center>
+        
+    </header>
+    <section style="background-color:rgb(235, 225, 165) ; width: 940px; margin:0 auto;">
+      <fieldset>
+        <form action="">
+            <b>Admission Enquiry Registration</b><br>
+            <em>General Instructions:</em>
+            <ol type="1">
+                <li>Fill only relevant information</li>
+                <li>In case of False info your response will be rejected</li>
+            </ol>
+            <label for="Name">Name:</label>
+            <input type="text" id="name" placeholder="First name"> <input type="text" placeholder="Second name"> <input type="text" placeholder="Third name"><br>
+            <label for="address"><em>Address:</em></label> 
+            <input type="text" id="address" placeholder="enter your address"> <br>
+            <label for="city"><em>city:</em></label> <select name="" id="city">
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="Lucknow">Lucknow</option>
+            </select>
+            <label for="State" style="padding-left: 10px;"><em>State:</em></label>
+            <select name="" id="state">
+                <option value="mumbai">Maharastra </option>
+                <option value="delhi">Uttar Pradesh</option>
+                <option value="Lucknow">Karnataka</option>
+            </select>
+            <label for="Pincode" style="padding-left: 10px;"><em>Pincode:</em></label>
+           <input type="number" id="pincode"><br>
+           <label for="email">Email:</label>
+           <input type="email">
+           <label for="Mobile" style="padding-left: 20px;">Mobile No.</label> <input type="number">
+           <br>
+           <label for="Gender">Gender:</label>
+           <input type="radio" value="Male" id="male" name="gender" >Male
+           <input type="radio" value="Female" id="female" name="gender">female <br>
+           <label for="dob">Date of Birth:</label><input type="date"><br>
+            <label for="branch">Choice of branch:</label><input type="checkbox" name="branch" id="It">information Technology
+            <input type="checkbox" name="branch" id="elec">Electrical
+            <input type="checkbox" name="branch" id=" mech">Mechanical
+            <input type="checkbox" name="branch" id="extc">Electronic <br>
+            <label for="upload">Upload CET Score Card :</label>
+            <input type="file" name="upload" id="cet"> <br>
+            <Label>Choose username:</Label> <input type="text" placeholder="Enter username"> <br>
+            <label for="pass">Enter password:</label> <input type="password"> <br>
+            <label for="R_pass">Retype password:</label> <input type="password"> <br>
+            <button>Submit</button>   
+        </form>
+      </fieldset>  
+    <div>
+        <iframe style="background-color: rgb(211, 235, 176); width: 940px; margin: 0 auto;" src="vision_mission.html" frameborder="0"></iframe>
+    </div>
+    <div>
+        <iframe style="background-color: rgb(137, 215, 243); width: 940px; margin: 0 auto; height: 500px;" src="building.html" frameborder="0"></iframe>
+    </div>
+    </section>
+    
+</body>
+</html>
